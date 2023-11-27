@@ -1,0 +1,972 @@
+<HTML ID="Quebra"
+      xmlns:v='urn:schemas-microsoft-com:vml'>
+<HEAD>
+<META NAME="GeraHTML5" CONTENT = "Visual Class">
+<META Name="Versao" Content="29-08-2012">
+<META Name="Codigo" Content="Quebra">
+<META Name="Data" Content="00:00:00">
+<META Name="Materia" Content="">
+<META Name="Título" Content="quebra">
+<META Name="Autor" Content="">
+<META Name="Assunto" Content="">
+<META Name="Alvo" Content="">
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<TITLE>quebra</TITLE>
+<style type='text/css'>
+body{
+margin:0;
+padding:0;
+background-repeat:no-repeat;
+background-position:center top;
+background-image:url('tpremon1_1366x768_sembotao.jpg');
+text-align:center;
+}
+#tudo{
+width:1366px;
+height:768px;
+margin-right:auto;
+margin-left:auto;
+text-align:left;
+}
+</style>
+<link rel='stylesheet' type='text/css' href='Quebra.css' />
+<script class='jsbin' src='GeraHTML_jqueryMin.js'></script>
+</HEAD>
+<BODY
+      id='body'
+      OnLoad="Janela_Load(); "
+      BGCOLOR="#FFFFFF"
+>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_source.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'Quebra.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_Avaliacao.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'>
+ var telaTemExercicio = true;
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_ativaswf.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_touch.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_gnpt-api.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_Som.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_dragdrop.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_Arrasta.js'>
+</SCRIPT>
+<SCRIPT Language='JavaScript'
+        src = 'GeraHTML_Animacao3.js'>
+</SCRIPT>
+<DIV id='tudo'>
+<script Language='javascript'>
+  try{
+    if (FindObj('tudo').offsetLeft == 0)
+      document.getElementById('body').style.backgroundPosition = '0px top';
+    tira = FindObj('tudo').offsetLeft;
+  } catch(ex) {}
+</script>
+<span id='somspan' STYLE='
+    POSITION:Absolute;
+    TOP: -10;
+    LEFT: -10;
+    WIDTH: 0;
+    HEIGHT: 0;'
+></span>
+<style type='text/css'>
+<!--
+   A {text-decoration: none; color: none}
+-->
+</style>
+<Script Language='JavaScript'>
+   var larTela = 1366;
+   var altTela = 768;
+   var maxTentativas = 0;
+   var tentativas = 0;
+   var nomeTela = 'Quebra';
+   var PrimeiroLink = null;
+   var somswf=0;
+   var tipoVideo = 0;
+</Script>
+<input id="session_status" type="hidden" value="null"/>
+<input id="session_timeout" type="hidden" value="null"/>
+<input id="session_timeout_message" type="hidden" value="null"/>
+<script type='text/javascript'>
+    var vetarrsolimgtela = new Array();
+    var vetOp;
+    var vetOpArrDifSol;
+    vetarrsolimgtela[0] = new Drag_drop_img('Arrastar Soltar Imagem - 1 - Quebra', 'soltar_imagem_1', 'Quebra');
+    vetarrsolimgtela[1] = new Drag_drop_img('Arrastar Soltar Imagem - 2 - Quebra', 'soltar_imagem_2', 'Quebra');
+    vetarrsolimgtela[2] = new Drag_drop_img('Arrastar Soltar Imagem - 3 - Quebra', 'soltar_imagem_3', 'Quebra');
+    vetarrsolimgtela[3] = new Drag_drop_img('Arrastar Soltar Imagem - 4 - Quebra', 'soltar_imagem_4', 'Quebra');
+    vetarrsolimgtela[4] = new Drag_drop_img('Arrastar Soltar Imagem - 5 - Quebra', 'soltar_imagem_5', 'Quebra');
+    vetarrsolimgtela[5] = new Drag_drop_img('Arrastar Soltar Imagem - 6 - Quebra', 'soltar_imagem_6', 'Quebra');
+    vetarrsolimgtela[6] = new Drag_drop_img('Arrastar Soltar Imagem - 7 - Quebra', 'soltar_imagem_7', 'Quebra');
+    vetarrsolimgtela[7] = new Drag_drop_img('Arrastar Soltar Imagem - 8 - Quebra', 'soltar_imagem_8', 'Quebra');
+    vetarrsolimgtela[8] = new Drag_drop_img('Arrastar Soltar Imagem - 9 - Quebra', 'soltar_imagem_9', 'Quebra');
+    var totAvancar = 9;
+    var qtdeAvancar = 0;
+</script>
+<div
+     id='controle1'
+     class='controleAnimacao' >
+<DIV
+    Name='DAnimacao1'
+    ID='DAnimacao1'
+    class='DAnimacao1'
+   OnMouseOver="AnimaMouseClick('Animacao1', 'bt_tpav1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao1', 'bt_tpav1a_1366x768.gif'); "
+>
+<A 
+   id='lAnimacao1'
+   name='lAnimacao1'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao1', 'bt_tpav1a_1366x768.gif');  chamaFinaliza(); "
+   OnMouseOver="AnimaMouseClick('Animacao1', 'bt_tpav1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao1', 'bt_tpav1a_1366x768.gif'); "
+>
+<IMG Id='Animacao1'
+     Name='Animacao1'
+     Src='bt_tpav1a_1366x768.gif'
+     WIDTH=80
+     HEIGHT=73
+     Border=0
+>
+</A>
+</DIV>
+</div>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao1');
+   obj.sMouseOver="AnimaMouseClick('Animacao1', 'bt_tpav1b_1366x768.gif'); ";
+   obj.sMouseOut="AnimaMouseClick('Animacao1', 'bt_tpav1a_1366x768.gif'); ";
+   preloadImages('bt_tpav1b_1366x768.gif', 'bt_tpav1a_1366x768.gif');
+    removeHref('lAnimacao1', true);
+</Script>
+<div
+     id='controle2'
+     class='controleAnimacao' >
+<DIV
+    Name='DAnimacao2'
+    ID='DAnimacao2'
+    class='DAnimacao2'
+   OnMouseOver="AnimaMouseClick('Animacao2', 'bt_tpvo1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao2', 'bt_tpvo1a_1366x768.gif'); "
+>
+<A 
+   id='lAnimacao2'
+   name='lAnimacao2'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao2', 'bt_tpvo1a_1366x768.gif');  volta(); "
+   OnMouseOver="AnimaMouseClick('Animacao2', 'bt_tpvo1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao2', 'bt_tpvo1a_1366x768.gif'); "
+>
+<IMG Id='Animacao2'
+     Name='Animacao2'
+     Src='bt_tpvo1a_1366x768.gif'
+     WIDTH=80
+     HEIGHT=73
+     Border=0
+>
+</A>
+</DIV>
+</div>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao2');
+   obj.sMouseOver="AnimaMouseClick('Animacao2', 'bt_tpvo1b_1366x768.gif'); ";
+   obj.sMouseOut="AnimaMouseClick('Animacao2', 'bt_tpvo1a_1366x768.gif'); ";
+   preloadImages('bt_tpvo1b_1366x768.gif', 'bt_tpvo1a_1366x768.gif');
+    removeHref('lAnimacao2', true);
+</Script>
+<div
+     id='controle3'
+     class='controleAnimacao' >
+<DIV
+    Name='DAnimacao3'
+    ID='DAnimacao3'
+    class='DAnimacao3'
+   OnMouseOver="AnimaMouseClick('Animacao3', 'bt_tpsa1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao3', 'bt_tpsa1a_1366x768.gif'); "
+>
+<A 
+   id='lAnimacao3'
+   name='lAnimacao3'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao3', 'bt_tpsa1a_1366x768.gif');  window.close(); "
+   OnMouseOver="AnimaMouseClick('Animacao3', 'bt_tpsa1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao3', 'bt_tpsa1a_1366x768.gif'); "
+>
+<IMG Id='Animacao3'
+     Name='Animacao3'
+     Src='bt_tpsa1a_1366x768.gif'
+     WIDTH=80
+     HEIGHT=73
+     Border=0
+>
+</A>
+</DIV>
+</div>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao3');
+   obj.sMouseOver="AnimaMouseClick('Animacao3', 'bt_tpsa1b_1366x768.gif'); ";
+   obj.sMouseOut="AnimaMouseClick('Animacao3', 'bt_tpsa1a_1366x768.gif'); ";
+   preloadImages('bt_tpsa1b_1366x768.gif', 'bt_tpsa1a_1366x768.gif');
+    removeHref('lAnimacao3', true);
+</Script>
+<div
+     id='controle4'
+     class='controleAnimacao' >
+<DIV
+    Name='DAnimacao4'
+    ID='DAnimacao4'
+    class='DAnimacao4'
+   OnMouseOver="AnimaMouseClick('Animacao4', 'bt_tpme1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao4', 'bt_tpme1a_1366x768.gif'); "
+>
+<A 
+   id='lAnimacao4'
+   name='lAnimacao4'
+   Href=#
+   OnClick="AnimaMouseClick('Animacao4', 'bt_tpme1a_1366x768.gif');   verifica = false; link_click('', 0, 0, 0, false, true); verifica = true;"
+   OnMouseOver="AnimaMouseClick('Animacao4', 'bt_tpme1b_1366x768.gif'); "
+   OnMouseOut="AnimaMouseClick('Animacao4', 'bt_tpme1a_1366x768.gif'); "
+>
+<IMG Id='Animacao4'
+     Name='Animacao4'
+     Src='bt_tpme1a_1366x768.gif'
+     WIDTH=79
+     HEIGHT=73
+     Border=0
+>
+</A>
+</DIV>
+</div>
+<Script Language='JavaScript'>
+   obj = FindObj('DAnimacao4');
+   obj.sMouseOver="AnimaMouseClick('Animacao4', 'bt_tpme1b_1366x768.gif'); ";
+   obj.sMouseOut="AnimaMouseClick('Animacao4', 'bt_tpme1a_1366x768.gif'); ";
+   preloadImages('bt_tpme1b_1366x768.gif', 'bt_tpme1a_1366x768.gif');
+    removeHref('lAnimacao4', true);
+</Script>
+<div
+     id='controle5'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg1'
+    ID='DSoltarImg1'
+    class='DSoltarImg1'
+>
+<A 
+   id='lSoltarImg1'
+   name='lSoltarImg1'
+>
+<IMG
+     name='SoltarImg1'
+     id='SoltarImg1'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=132
+     HEIGHT=139
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle6'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg1'
+    ID='DArrastarImg1'
+    class='DArrastarImg1'
+>
+<A 
+   id='lArrastarImg1'
+   name='lArrastarImg1'
+>
+<IMG
+     name='ArrastarImg1'
+     id='ArrastarImg1'
+     SRC='qcmyyeit29n.gif'
+     Border=0
+     WIDTH=132
+     HEIGHT=138
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle7'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg2'
+    ID='DSoltarImg2'
+    class='DSoltarImg2'
+>
+<A 
+   id='lSoltarImg2'
+   name='lSoltarImg2'
+>
+<IMG
+     name='SoltarImg2'
+     id='SoltarImg2'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=155
+     HEIGHT=140
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle8'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg2'
+    ID='DArrastarImg2'
+    class='DArrastarImg2'
+>
+<A 
+   id='lArrastarImg2'
+   name='lArrastarImg2'
+>
+<IMG
+     name='ArrastarImg2'
+     id='ArrastarImg2'
+     SRC='qcjo43dh2jo.gif'
+     Border=0
+     WIDTH=155
+     HEIGHT=139
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle9'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg3'
+    ID='DSoltarImg3'
+    class='DSoltarImg3'
+>
+<A 
+   id='lSoltarImg3'
+   name='lSoltarImg3'
+>
+<IMG
+     name='SoltarImg3'
+     id='SoltarImg3'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=137
+     HEIGHT=139
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle10'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg3'
+    ID='DArrastarImg3'
+    class='DArrastarImg3'
+>
+<A 
+   id='lArrastarImg3'
+   name='lArrastarImg3'
+>
+<IMG
+     name='ArrastarImg3'
+     id='ArrastarImg3'
+     SRC='qct74ikkbdt.gif'
+     Border=0
+     WIDTH=137
+     HEIGHT=138
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle11'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg4'
+    ID='DSoltarImg4'
+    class='DSoltarImg4'
+>
+<A 
+   id='lSoltarImg4'
+   name='lSoltarImg4'
+>
+<IMG
+     name='SoltarImg4'
+     id='SoltarImg4'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=133
+     HEIGHT=153
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle12'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg4'
+    ID='DArrastarImg4'
+    class='DArrastarImg4'
+>
+<A 
+   id='lArrastarImg4'
+   name='lArrastarImg4'
+>
+<IMG
+     name='ArrastarImg4'
+     id='ArrastarImg4'
+     SRC='qc3mogjil9o.gif'
+     Border=0
+     WIDTH=133
+     HEIGHT=152
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle13'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg5'
+    ID='DSoltarImg5'
+    class='DSoltarImg5'
+>
+<A 
+   id='lSoltarImg5'
+   name='lSoltarImg5'
+>
+<IMG
+     name='SoltarImg5'
+     id='SoltarImg5'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=153
+     HEIGHT=152
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle14'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg5'
+    ID='DArrastarImg5'
+    class='DArrastarImg5'
+>
+<A 
+   id='lArrastarImg5'
+   name='lArrastarImg5'
+>
+<IMG
+     name='ArrastarImg5'
+     id='ArrastarImg5'
+     SRC='qc1j8webm32.gif'
+     Border=0
+     WIDTH=153
+     HEIGHT=151
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle15'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg6'
+    ID='DSoltarImg6'
+    class='DSoltarImg6'
+>
+<A 
+   id='lSoltarImg6'
+   name='lSoltarImg6'
+>
+<IMG
+     name='SoltarImg6'
+     id='SoltarImg6'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=137
+     HEIGHT=154
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle16'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg6'
+    ID='DArrastarImg6'
+    class='DArrastarImg6'
+>
+<A 
+   id='lArrastarImg6'
+   name='lArrastarImg6'
+>
+<IMG
+     name='ArrastarImg6'
+     id='ArrastarImg6'
+     SRC='qc0wwq0cgs0.gif'
+     Border=0
+     WIDTH=137
+     HEIGHT=153
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle17'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg7'
+    ID='DSoltarImg7'
+    class='DSoltarImg7'
+>
+<A 
+   id='lSoltarImg7'
+   name='lSoltarImg7'
+>
+<IMG
+     name='SoltarImg7'
+     id='SoltarImg7'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=131
+     HEIGHT=133
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle18'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg7'
+    ID='DArrastarImg7'
+    class='DArrastarImg7'
+>
+<A 
+   id='lArrastarImg7'
+   name='lArrastarImg7'
+>
+<IMG
+     name='ArrastarImg7'
+     id='ArrastarImg7'
+     SRC='qc1un4lb2n0.gif'
+     Border=0
+     WIDTH=131
+     HEIGHT=132
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle19'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg8'
+    ID='DSoltarImg8'
+    class='DSoltarImg8'
+>
+<A 
+   id='lSoltarImg8'
+   name='lSoltarImg8'
+>
+<IMG
+     name='SoltarImg8'
+     id='SoltarImg8'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=155
+     HEIGHT=133
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle20'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg8'
+    ID='DArrastarImg8'
+    class='DArrastarImg8'
+>
+<A 
+   id='lArrastarImg8'
+   name='lArrastarImg8'
+>
+<IMG
+     name='ArrastarImg8'
+     id='ArrastarImg8'
+     SRC='qcgho4t6j16.gif'
+     Border=0
+     WIDTH=155
+     HEIGHT=132
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle21'
+     class='controleSoltarImg' >
+<DIV
+    Name='DSoltarImg9'
+    ID='DSoltarImg9'
+    class='DSoltarImg9'
+>
+<A 
+   id='lSoltarImg9'
+   name='lSoltarImg9'
+>
+<IMG
+     name='SoltarImg9'
+     id='SoltarImg9'
+     SRC="cinza.gif"
+     Border='0'
+     WIDTH=138
+     HEIGHT=135
+>
+</A>
+</DIV>
+</div>
+<div
+     id='controle22'
+     class='controleArrastarImg' >
+<DIV
+    Name='DArrastarImg9'
+    ID='DArrastarImg9'
+    class='DArrastarImg9'
+>
+<A 
+   id='lArrastarImg9'
+   name='lArrastarImg9'
+>
+<IMG
+     name='ArrastarImg9'
+     id='ArrastarImg9'
+     SRC='qcyl5o2qiaa.gif'
+     Border=0
+     WIDTH=138
+     HEIGHT=134
+>
+</A>
+</DIV>
+</div>
+<audio>
+   <source src="Comemo~1.mp3" type="audio/mpeg">
+</audio>
+<div
+     id='controle23'
+     class='controleGroupRotulo' >
+<div
+     name='DGroupRotulo1'
+     id='DGroupRotulo1'
+     class='DGroupRotulo1'>
+<DIV
+     name='DRotulo1'
+     id='DRotulo1'
+     class='DRotulo1'
+     ALIGN='Center' 
+>
+<table width='100%' height='100%'><tr><td align='center'>
+<A 
+   id='lRotulo1'
+   name='lRotulo1'
+>
+     <FONT ID='Rotulo1' FACE='Arial' COLOR='#FFFFFF'>
+    Enunciado
+      </FONT>
+</A>
+</td></tr></table>
+</DIV>
+</div>
+<Script>
+    removeHref('lRotulo1', false);
+   FindObj('DRotulo1').sMouseClick="";
+   colocaEstiloFonte('Rotulo1', 'Arial', 30, 2, '#000000', 7, '#FFFFFF', 0);
+   Desloca('DRotulo1');
+</Script>
+</div>
+<script type='Text/javascript'>
+function pararSonsTela() {
+  para_somNovo();
+}
+</script>
+<script type='Text/javascript'>
+<!--
+  SET_DHTML('DArrastarImg1','DArrastarImg2','DArrastarImg3','DArrastarImg4','DArrastarImg5','DArrastarImg6','DArrastarImg7','DArrastarImg8','DArrastarImg9');
+  var objeto_s1=FindObj('DSoltarImg1');
+  var posXSolImg1 = getPositionX(objeto_s1);
+  objeto_s1.indice_arrastar=1;
+  objeto_s1.x_ini=posXSolImg1;
+  objeto_s1.y_ini=205;
+  objeto_s1.width=132;
+  objeto_s1.height=138;
+  objeto_s1.som='Comemo~1.mp3';
+  var objeto1=FindObj('DArrastarImg1');
+  var posXArrImg1 = getPositionX(objeto1);
+  objeto1.tipoobj=10;
+  objeto1.indice_soltar=1;
+  objeto1.x_ini=posXArrImg1;
+  objeto1.y_ini=192;
+  objeto1.width=132;
+  objeto1.height=138;
+  objeto1.imagem='qcmyyeit29n.gif';
+  objeto1.clicar=0
+
+  $('.DArrastarImg1').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg1').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg1').bind('touchend', endMoveArrSol);
+
+  var objeto_s2=FindObj('DSoltarImg2');
+  var posXSolImg2 = getPositionX(objeto_s2);
+  objeto_s2.indice_arrastar=2;
+  objeto_s2.x_ini=posXSolImg2;
+  objeto_s2.y_ini=205;
+  objeto_s2.width=155;
+  objeto_s2.height=139;
+  objeto_s2.som='Comemo~1.mp3';
+  var objeto2=FindObj('DArrastarImg2');
+  var posXArrImg2 = getPositionX(objeto2);
+  objeto2.tipoobj=10;
+  objeto2.indice_soltar=2;
+  objeto2.x_ini=posXArrImg2;
+  objeto2.y_ini=557;
+  objeto2.width=155;
+  objeto2.height=139;
+  objeto2.imagem='qcjo43dh2jo.gif';
+  objeto2.clicar=0
+
+  $('.DArrastarImg2').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg2').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg2').bind('touchend', endMoveArrSol);
+
+  var objeto_s3=FindObj('DSoltarImg3');
+  var posXSolImg3 = getPositionX(objeto_s3);
+  objeto_s3.indice_arrastar=3;
+  objeto_s3.x_ini=posXSolImg3;
+  objeto_s3.y_ini=205;
+  objeto_s3.width=137;
+  objeto_s3.height=138;
+  objeto_s3.som='Comemo~1.mp3';
+  var objeto3=FindObj('DArrastarImg3');
+  var posXArrImg3 = getPositionX(objeto3);
+  objeto3.tipoobj=10;
+  objeto3.indice_soltar=3;
+  objeto3.x_ini=posXArrImg3;
+  objeto3.y_ini=423;
+  objeto3.width=137;
+  objeto3.height=138;
+  objeto3.imagem='qct74ikkbdt.gif';
+  objeto3.clicar=0
+
+  $('.DArrastarImg3').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg3').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg3').bind('touchend', endMoveArrSol);
+
+  var objeto_s4=FindObj('DSoltarImg4');
+  var posXSolImg4 = getPositionX(objeto_s4);
+  objeto_s4.indice_arrastar=4;
+  objeto_s4.x_ini=posXSolImg4;
+  objeto_s4.y_ini=307;
+  objeto_s4.width=133;
+  objeto_s4.height=152;
+  objeto_s4.som='Comemo~1.mp3';
+  var objeto4=FindObj('DArrastarImg4');
+  var posXArrImg4 = getPositionX(objeto4);
+  objeto4.tipoobj=10;
+  objeto4.indice_soltar=4;
+  objeto4.x_ini=posXArrImg4;
+  objeto4.y_ini=324;
+  objeto4.width=133;
+  objeto4.height=152;
+  objeto4.imagem='qc3mogjil9o.gif';
+  objeto4.clicar=0
+
+  $('.DArrastarImg4').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg4').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg4').bind('touchend', endMoveArrSol);
+
+  var objeto_s5=FindObj('DSoltarImg5');
+  var posXSolImg5 = getPositionX(objeto_s5);
+  objeto_s5.indice_arrastar=5;
+  objeto_s5.x_ini=posXSolImg5;
+  objeto_s5.y_ini=307;
+  objeto_s5.width=153;
+  objeto_s5.height=151;
+  objeto_s5.som='Comemo~1.mp3';
+  var objeto5=FindObj('DArrastarImg5');
+  var posXArrImg5 = getPositionX(objeto5);
+  objeto5.tipoobj=10;
+  objeto5.indice_soltar=5;
+  objeto5.x_ini=posXArrImg5;
+  objeto5.y_ini=573;
+  objeto5.width=153;
+  objeto5.height=151;
+  objeto5.imagem='qc1j8webm32.gif';
+  objeto5.clicar=0
+
+  $('.DArrastarImg5').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg5').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg5').bind('touchend', endMoveArrSol);
+
+  var objeto_s6=FindObj('DSoltarImg6');
+  var posXSolImg6 = getPositionX(objeto_s6);
+  objeto_s6.indice_arrastar=6;
+  objeto_s6.x_ini=posXSolImg6;
+  objeto_s6.y_ini=307;
+  objeto_s6.width=137;
+  objeto_s6.height=153;
+  objeto_s6.som='Comemo~1.mp3';
+  var objeto6=FindObj('DArrastarImg6');
+  var posXArrImg6 = getPositionX(objeto6);
+  objeto6.tipoobj=10;
+  objeto6.indice_soltar=6;
+  objeto6.x_ini=posXArrImg6;
+  objeto6.y_ini=586;
+  objeto6.width=137;
+  objeto6.height=153;
+  objeto6.imagem='qc0wwq0cgs0.gif';
+  objeto6.clicar=0
+
+  $('.DArrastarImg6').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg6').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg6').bind('touchend', endMoveArrSol);
+
+  var objeto_s7=FindObj('DSoltarImg7');
+  var posXSolImg7 = getPositionX(objeto_s7);
+  objeto_s7.indice_arrastar=7;
+  objeto_s7.x_ini=posXSolImg7;
+  objeto_s7.y_ini=423.3333;
+  objeto_s7.width=131;
+  objeto_s7.height=132;
+  objeto_s7.som='Comemo~1.mp3';
+  var objeto7=FindObj('DArrastarImg7');
+  var posXArrImg7 = getPositionX(objeto7);
+  objeto7.tipoobj=10;
+  objeto7.indice_soltar=7;
+  objeto7.x_ini=posXArrImg7;
+  objeto7.y_ini=467;
+  objeto7.width=131;
+  objeto7.height=132;
+  objeto7.imagem='qc1un4lb2n0.gif';
+  objeto7.clicar=0
+
+  $('.DArrastarImg7').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg7').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg7').bind('touchend', endMoveArrSol);
+
+  var objeto_s8=FindObj('DSoltarImg8');
+  var posXSolImg8 = getPositionX(objeto_s8);
+  objeto_s8.indice_arrastar=8;
+  objeto_s8.x_ini=posXSolImg8;
+  objeto_s8.y_ini=423.3333;
+  objeto_s8.width=155;
+  objeto_s8.height=132;
+  objeto_s8.som='Comemo~1.mp3';
+  var objeto8=FindObj('DArrastarImg8');
+  var posXArrImg8 = getPositionX(objeto8);
+  objeto8.tipoobj=10;
+  objeto8.indice_soltar=8;
+  objeto8.x_ini=posXArrImg8;
+  objeto8.y_ini=314;
+  objeto8.width=155;
+  objeto8.height=132;
+  objeto8.imagem='qcgho4t6j16.gif';
+  objeto8.clicar=0
+
+  $('.DArrastarImg8').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg8').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg8').bind('touchend', endMoveArrSol);
+
+  var objeto_s9=FindObj('DSoltarImg9');
+  var posXSolImg9 = getPositionX(objeto_s9);
+  objeto_s9.indice_arrastar=9;
+  objeto_s9.x_ini=posXSolImg9;
+  objeto_s9.y_ini=421;
+  objeto_s9.width=138;
+  objeto_s9.height=134;
+  objeto_s9.som='Comemo~1.mp3';
+  var objeto9=FindObj('DArrastarImg9');
+  var posXArrImg9 = getPositionX(objeto9);
+  objeto9.tipoobj=10;
+  objeto9.indice_soltar=9;
+  objeto9.x_ini=posXArrImg9;
+  objeto9.y_ini=165;
+  objeto9.width=138;
+  objeto9.height=134;
+  objeto9.imagem='qcyl5o2qiaa.gif';
+  objeto9.clicar=0
+
+  $('.DArrastarImg9').bind('touchstart', startMoveArrSol);
+  $('.DArrastarImg9').bind('touchmove', moveMoveArrSol);
+  $('.DArrastarImg9').bind('touchend', endMoveArrSol);
+
+  var n_ArrImg=9;
+  carregado=true;
+//-->
+</script>
+<Script>
+</Script>
+<SCRIPT Language='JavaScript'>
+  var tFundo=window.setInterval('mostraAnimas()',200);
+  function mostraAnimas() {
+    window.clearInterval(tFundo);
+    obj = FindObj('DAnimacao1');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao2');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao3');
+    obj.style.visibility="visible";
+    obj = FindObj('DAnimacao4');
+    obj.style.visibility="visible";
+  }
+</SCRIPT>
+</DIV>
+</BODY>
+</HTML>
